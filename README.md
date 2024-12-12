@@ -8,7 +8,7 @@ A very good slide to learn the basic concepts of reinforcement learning. Super c
 
 
 
-## Papers and Abstract
+## Papers
 
 ### Reinforcement Learning
 1.[HIQL: Offline Goal-Conditioned RL
