@@ -45,7 +45,8 @@ The renown Tesla robotics. AGI for robotic control.
 
 3.[Physical Intelligence](https://www.physicalintelligence.company/)
 An algorithm company. Designing AI algorithms for robotics. Its founders include lots of renown scholars in robotic area.
-![image](https://github.com/user-attachments/assets/687aa6df-397b-4ab7-b535-5ffd0342a4b4)
+![image](https://github.com/user-attachments/assets/99f16bfa-4382-4609-a835-1406d5b7f565)
+
 
 
 
