@@ -43,4 +43,9 @@ Cloning human beings' body structure to make a humanoid robot.
 The renown Tesla robotics. AGI for robotic control. 
 ![image](https://github.com/user-attachments/assets/82d682bc-9229-4b94-affd-6a028fbcd162)
 
+3.[Physical Intelligence](https://www.physicalintelligence.company/)
+An algorithm company. Designing AI algorithms for robotics. Its founders include lots of renown scholars in robotic area.
+![image](https://github.com/user-attachments/assets/687aa6df-397b-4ab7-b535-5ffd0342a4b4)
+
+
 
