@@ -2,8 +2,8 @@
 As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for robotics. Many scholars have different names for it, including embodied AI, smart robotics, etc. I don't care what its name really is, I just want to share what I have learnt. Hope it helps!
 
 ## Main Challenges
-1. Accuracy (Including RL, IL, network structure)
-2. Generality
+1. Accuracy (Algorithm)
+2. Generality (Multi-task)
 3. Inference speed
 4. Datasets
 5. Sim2Real
