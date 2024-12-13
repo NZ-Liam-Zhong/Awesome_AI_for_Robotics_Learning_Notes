@@ -33,8 +33,6 @@ This paper learns a value action conditioned on the language guide based on lanr
 
 
 
-### Imitation Learning 
-
 
 
 
