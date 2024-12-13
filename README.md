@@ -29,9 +29,15 @@ This paper learns a value action conditioned on the language guide based on lanr
 
 
 
-## Benchmark
 
-## Datasets
 
 ## Industry
 Here we update some tech advance in the industry🔥🔥🔥
+There are too many start-ups doing the same thing, bored and useless. So, we will only update the robotic start-ups who make **innovative products**
+
+1.[Clone AI](https://www.clonerobotics.com/)
+Cloning human beings' body structure to make a humanoid robot.
+![image](https://github.com/user-attachments/assets/3a750590-e473-4ce3-a60e-d55d30996af6)
+
+2.[Tesla Optimus](https://x.com/Tesla_Optimus)
+The renown Tesla robotics. AGI for robotic control. 
