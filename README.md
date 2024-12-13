@@ -1,5 +1,7 @@
 # Awesome_AI_for_Robotics
 As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for robotics. Many scholars have different names for it, including embodied AI, smart robotics, etc. I don't care what its name really is, I just want to share what I have learnt. Hope it helps!
+![image](https://github.com/user-attachments/assets/78cd784b-c257-40c0-9296-fda6a717147f)
+(Image by Grok)
 
 ## Main Challenges
 1. Accuracy (Algorithm)
