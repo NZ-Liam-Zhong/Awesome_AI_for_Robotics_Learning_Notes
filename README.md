@@ -11,7 +11,8 @@ As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for 
 5. Sim2Real
 
 ## Tutorials & Slides
-1. [Deep Reinforcement Learning slides by Sergey Levine CS 285 at UC Berkeley](https://rail.eecs.berkeley.edu/deeprlcourse/)
+
+1.[Deep Reinforcement Learning slides by Sergey Levine CS 285 at UC Berkeley](https://rail.eecs.berkeley.edu/deeprlcourse/)
 A very good slide to learn the basic concepts of reinforcement learning. Super clear. **Institution： UC Berkeley**
 
 2.[Offline Reinforcement Learning Tutorial by Sergey Levine 2020](https://arxiv.org/pdf/2005.01643)
