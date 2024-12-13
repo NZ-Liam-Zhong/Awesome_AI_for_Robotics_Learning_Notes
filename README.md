@@ -33,7 +33,7 @@ This paper learns a value action conditioned on the language guide based on lanr
 
 ## Industry
 Here we update some tech advance in the industry🔥🔥🔥
-There are too many start-ups doing the same thing, bored and useless. So, we will only update the robotic start-ups who make **innovative products**
+There are too many start-ups doing the same thing, boring and useless. So, we will only update the AI for robotic start-ups who make **innovative products**
 
 1.[Clone AI](https://www.clonerobotics.com/)
 Cloning human beings' body structure to make a humanoid robot.
