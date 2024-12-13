@@ -37,7 +37,8 @@ This paper learns a value action conditioned on the language guide based on lanr
 
 4.[Reconciling Reality through Simulation: A Real-to-Sim-to-Real Approach for Robust Manipulation](https://arxiv.org/pdf/2403.03949)
 A new paradigm for learning robot policy. The authors first use imitation learning to learn the real world policy, reconstructs the environment and uses reinforcement learning to learn the policy in the simulator, and transfer the policy to the real world using teacher-student model (because sim and real have different inputs). I admit that there is performance increase, but I doubt whether it is applicable to the real world particularly in large complicated scenarios.  But we can learn from the paper that, we can add some regularization when learning the strategies so we can adopt the advantages of the previous policy. **Marcel Torne, Anthony Simeonov, Zechu Li, April Chan, Tao Chen, Abhishek Gupta2, Pulkit Agrawal. Arxiv 2024** 
-![image](https://github.com/user-attachments/assets/d9a496b1-7fc8-460f-8526-443619039ece)
+![image](https://github.com/user-attachments/assets/abaf0019-c16a-4b93-915c-f1d4dae849fc)
+
 
 
 
