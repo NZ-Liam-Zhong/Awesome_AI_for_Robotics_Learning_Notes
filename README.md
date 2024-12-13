@@ -41,5 +41,6 @@ Cloning human beings' body structure to make a humanoid robot.
 
 2.[Tesla Optimus](https://x.com/Tesla_Optimus)
 The renown Tesla robotics. AGI for robotic control. 
-![image](https://github.com/user-attachments/assets/7097e1a2-c4bf-4fd5-be19-0073031b0d2f)
+![image](https://github.com/user-attachments/assets/82d682bc-9229-4b94-affd-6a028fbcd162)
+
 
