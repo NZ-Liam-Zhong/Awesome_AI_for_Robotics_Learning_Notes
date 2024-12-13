@@ -34,3 +34,4 @@ This paper learns a value action conditioned on the language guide based on lanr
 ## Datasets
 
 ## Industry
+Here we update some tech advance in the industry🔥🔥🔥
