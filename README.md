@@ -41,6 +41,8 @@ A new paradigm for learning robot policy. The authors first use imitation learni
 ### (2) Dataset & Dataset Generation
 1.[Automated Creation of Digital Cousins for Robust Policy Learning](https://arxiv.org/pdf/2410.07408)
 This is a kind of domain randomization method. When training a robot policy based on imgaes input, the authors leverage the depth information and the basic layouts to match different kinds of similar objects to replace the original objects in the scene (The authors defind it as the "digital cousin") and render the new objects to form a new image. When training on different kinds of objects in the same layout, we can bridge the sim2real domain gap. **Tianyuan Dai, Josiah Wong, Yunfan Jiang, Chen Wang, Cem Gokmen, Ruohan Zhang, Jiajun Wu, Li Fei-Fei CoRL 2024** 
+![图片](https://github.com/user-attachments/assets/f85388b0-4bf7-4ddf-9874-74e83dc095bc)
+
 
 
 
