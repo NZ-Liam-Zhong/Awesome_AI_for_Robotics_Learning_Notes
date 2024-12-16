@@ -52,8 +52,8 @@ This is a kind of domain randomization method. When training a robot policy base
 
 ### (4) Inference speed 
 1. [Fast Inference from Transformers via Speculative Decoding](https://proceedings.mlr.press/v202/leviathan23a.html)
-Speculative Execution: an optimization technique, where a task is performed in parrallel, can accelerate inference without changing the model architecture, withing re-training, without changing the training procedures and without changing the model output distributions.
-
+Speculative Execution: an optimization technique, where a task is performed in parrallel, can accelerate inference without changing the model architecture, withing re-training, without changing the training procedures and without changing the model output distributions. **Yaniv Leviathan, Matan Kalman, Yossi Matias ICML 2023**
+![image](https://github.com/user-attachments/assets/41a6eb6b-4e0d-4c24-90c9-eb64f644dfb2)
 
 
 
