@@ -14,6 +14,7 @@ As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for 
 
 1.[Deep Reinforcement Learning slides by Sergey Levine CS 285 at UC Berkeley](https://rail.eecs.berkeley.edu/deeprlcourse/)
 A very good slide to learn the basic concepts of reinforcement learning. Super clear. **Institution： UC Berkeley**
+(Too easy, just for the starters)
 
 2.[Offline Reinforcement Learning Tutorial by Sergey Levine 2020](https://arxiv.org/pdf/2005.01643)
 Introduction, technology and open problem about offline reinforcement learning. **Institution： UC Berkeley**
