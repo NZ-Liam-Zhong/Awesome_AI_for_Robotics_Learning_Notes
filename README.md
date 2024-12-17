@@ -11,12 +11,14 @@ As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for 
 5. Sim2Real
 
 ## Tutorials & Slides
+1.[Reinforcement Learning Basics by Fei-Fei Li](https://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture14.pdf)
+Slides for understanding basic concepts for reinforcement learning. **Institution： Stanford University**
 
-1.[Deep Reinforcement Learning slides by Sergey Levine CS 285 at UC Berkeley](https://rail.eecs.berkeley.edu/deeprlcourse/)
+2.[Deep Reinforcement Learning slides by Sergey Levine CS 285 at UC Berkeley](https://rail.eecs.berkeley.edu/deeprlcourse/)
 A very good slide to learn the basic concepts of reinforcement learning. Super clear. **Institution： UC Berkeley**
 <br> (Too easy, just for the starters)
 
-2.[Offline Reinforcement Learning Tutorial by Sergey Levine 2020](https://arxiv.org/pdf/2005.01643)
+3.[Offline Reinforcement Learning Tutorial by Sergey Levine 2020](https://arxiv.org/pdf/2005.01643)
 Introduction, technology and open problem about offline reinforcement learning. **Institution： UC Berkeley**
 
 
