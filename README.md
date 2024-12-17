@@ -48,7 +48,7 @@ A new paradigm for learning robot policy. The authors first use imitation learni
 
 ### (2) Vision-Language Action Model 
 1.[MiniVLA: A Better VLA with a Smaller Footprint](https://ai.stanford.edu/blog/minivla/)
-The OpenVLA by far the sota method in open-source vision-language action models. However, the model has a slow inference and training speed and only supprt per-image input. In this work, the authors use action chunking (multi-action output) and multi-image input to improve the performance. What's more, the authors also use Qwen 0.5B model as the backbone to reduce the size of the backbone mode. ** Suneel Belkhale and Dorsa Sadigh. The Stanford AI Lab Blog 2024 ** 
+The OpenVLA by far the sota method in open-source vision-language action models. However, the model has a slow inference and training speed and only supprt per-image input. In this work, the authors use action chunking (multi-action output) and multi-image input to improve the performance. What's more, the authors also use Qwen 0.5B model as the backbone to reduce the size of the backbone mode. **Suneel Belkhale and Dorsa Sadigh. The Stanford AI Lab Blog 2024** 
 
 2.(about to read) action chunking transformer
 
