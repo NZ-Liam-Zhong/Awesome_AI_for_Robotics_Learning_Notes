@@ -86,6 +86,7 @@ An algorithm company. Designing AI algorithms for robotics. Its founders include
 
 ### Nov.2024
 1.Bridge Sim2Real Gap: domain randomization, system identification, or improved simulator visuals <br>
-2.When connecting to huggingface is not convenient, we can set: **os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'**
+2.When connecting to huggingface is not convenient, we can set: **os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'**<br>
+3.When "labels" in "CausalLMOutputWithPast" is -100, it means we can neglect it.
 
 
