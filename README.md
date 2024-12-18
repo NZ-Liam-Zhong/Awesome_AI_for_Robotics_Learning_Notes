@@ -17,6 +17,7 @@ Slides for understanding basic concepts for reinforcement learning. **Institutio
 2.[Deep Reinforcement Learning slides by Sergey Levine CS 285 at UC Berkeley](https://rail.eecs.berkeley.edu/deeprlcourse/)
 A very good slide to learn the basic concepts of reinforcement learning. Super clear. **Institution： UC Berkeley**
 <br> (For the starters)
+[Lession:Deep Reinforcement Learning slides by Sergey Levine CS 285 at UC Berkeley](https://www.youtube.com/playlist?list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps)
 
 3.[CS234: Reinforcement Learning Spring 2024 by Emma Brunskill](https://web.stanford.edu/class/cs234/modules.html)
 A very good slide for the learners with a basic RL knowledge. **Institution： Stanford University**
