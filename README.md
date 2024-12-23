@@ -55,8 +55,9 @@ A benchmark for offline goal-conditioned reinforcement learning to assess the ca
 1.[MiniVLA: A Better VLA with a Smaller Footprint](https://ai.stanford.edu/blog/minivla/)
 The OpenVLA by far the sota method in open-source vision-language action models. However, the model has a slow inference and training speed and only supprt per-image input. In this work, the authors use action chunking (multi-action output) and multi-image input to improve the performance. What's more, the authors also use Qwen 0.5B model as the backbone to reduce the size of the backbone mode. **Suneel Belkhale and Dorsa Sadigh. The Stanford AI Lab Blog 2024** 
 
-2.(about to read) action chunking transformer
-
+2.[Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://proceedings.neurips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Paper-Conference.pdf) Typically, we need RLHF to finetune any LLM to human preference datasets. However, it needs fitting an Bradley-Terry Model based reward function. This paper uses simple algebra to put foward a loss function that can directly optimize the LLM without learning any reward model (The model itself can be used as reward model). What we can learn from this paper is that some learning frameworks can be optimized through simple algebra.**Rafael Rafailov, Archit Sharma, Eric Mitchell,Stefano Ermon, Christopher D. Manning, Chelsea Finn. NeurIPS 2023** 
+![图片](https://github.com/user-attachments/assets/1ec6ead7-1fee-4112-9df8-e08517de452c)
+![图片](https://github.com/user-attachments/assets/cee92256-2cfe-46c3-aaa4-5d6466062820)
 
 ### (3) Dataset & Dataset Generation
 1.[Automated Creation of Digital Cousins for Robust Policy Learning](https://arxiv.org/pdf/2410.07408)
