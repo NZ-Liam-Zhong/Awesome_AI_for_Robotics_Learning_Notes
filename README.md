@@ -48,8 +48,6 @@ A new paradigm for learning robot policy. The authors first use imitation learni
 5.[OGBENCH: BENCHMARKING OFFLINE GOAL-CONDITIONED RL](https://arxiv.org/abs/2410.20092)
 A benchmark for offline goal-conditioned reinforcement learning to assess the capability of algorithms to deal with challenges in this field. The challenges including (1) Learning from suboptimal, unstructured data (2) Goal stitching (3) Long-horizon reasoning (4) Handling stochasticity, which motivates the design of OGBench. Additionally, OGBench illustrated the open problems for reaearchers to investigate according to the results, which is a foudation for researchers to achieve the goal of offline GCRL:  building foundation models for general-purpose behaviors. **Seohong Park, Kevin Frans, Benjamin Eysenbach, Sergey Levine. Arxiv 2024** 
 
-6.(Still Reading)[Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://proceedings.neurips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Paper-Conference.pdf) **Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, Chelsea Finn. NeurIPS 2023** 
-
 
 ### (2) Vision-Language Action Model 
 1.[MiniVLA: A Better VLA with a Smaller Footprint](https://ai.stanford.edu/blog/minivla/)
