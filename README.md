@@ -57,7 +57,7 @@ The OpenVLA by far the sota method in open-source vision-language action models.
 ![图片](https://github.com/user-attachments/assets/1ec6ead7-1fee-4112-9df8-e08517de452c)
 ![图片](https://github.com/user-attachments/assets/cee92256-2cfe-46c3-aaa4-5d6466062820)
 
-3.[ReST-MCTS∗: LLM Self-Training via Process Reward Guided Tree Search](https://arxiv.org/pdf/2406.03816) A technical method hopes to realize the slow-thinking mode of GPT o1. It uses tree searching method to train both the value network and policy network.**Dan Zhang1, Sining Zhoubian, Ziniu Hu, Yisong Yue, Yuxiao Dong, Jie Tang. Arxiv 2024**
+3.[ReST-MCTS∗: LLM Self-Training via Process Reward Guided Tree Search](https://arxiv.org/pdf/2406.03816) A technical method hopes to realize the slow-thinking mode of GPT o1. It uses tree searching method to train both the value network and policy network.**Dan Zhang, Sining Zhoubian, Ziniu Hu, Yisong Yue, Yuxiao Dong, Jie Tang. Arxiv 2024**
 ![图片](https://github.com/user-attachments/assets/30662c8d-379e-4a6b-a982-212b92818ce2)
 ![图片](https://github.com/user-attachments/assets/7fa751bd-99c8-4c0d-9951-ac36907c9fca)
 
