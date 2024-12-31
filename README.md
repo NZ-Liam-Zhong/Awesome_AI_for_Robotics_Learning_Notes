@@ -57,6 +57,10 @@ The OpenVLA by far the sota method in open-source vision-language action models.
 ![图片](https://github.com/user-attachments/assets/1ec6ead7-1fee-4112-9df8-e08517de452c)
 ![图片](https://github.com/user-attachments/assets/cee92256-2cfe-46c3-aaa4-5d6466062820)
 
+3.[ReST-MCTS∗: LLM Self-Training via Process Reward Guided Tree Search](https://arxiv.org/pdf/2406.03816) A technical method hopes to realize the slow-thinking mode of GPT o1. It uses tree searching method to train both the value network and policy network.**Dan Zhang1, Sining Zhoubian, Ziniu Hu, Yisong Yue, Yuxiao Dong, Jie Tang. Arxiv 2024**
+![图片](https://github.com/user-attachments/assets/30662c8d-379e-4a6b-a982-212b92818ce2)
+
+
 ### (3) Dataset & Dataset Generation
 1.[Automated Creation of Digital Cousins for Robust Policy Learning](https://arxiv.org/pdf/2410.07408)
 This is a kind of domain randomization method. When training a robot policy based on imgaes input, the authors leverage the depth information and the basic layouts to match different kinds of similar objects to replace the original objects in the scene (The authors defind it as the "digital cousin") and render the new objects to form a new image. When training on different kinds of objects in the same layout, we can bridge the sim2real domain gap. **Tianyuan Dai, Josiah Wong, Yunfan Jiang, Chen Wang, Cem Gokmen, Ruohan Zhang, Jiajun Wu, Li Fei-Fei CoRL 2024** 
