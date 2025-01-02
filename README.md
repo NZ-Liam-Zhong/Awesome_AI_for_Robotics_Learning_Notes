@@ -25,6 +25,8 @@ A very good slide for the learners with a basic RL knowledge. **Institution： S
 4.[Offline Reinforcement Learning Tutorial by Sergey Levine 2020](https://arxiv.org/pdf/2005.01643)
 Introduction, technology and open problem about offline reinforcement learning. **Institution： UC Berkeley**
 
+5.[Impressive Talk by Sergey Levine](https://www.youtube.com/watch?v=mXFH7xs_k_I) Inspiring. Talk was given in Dec. 2024. **Institution： UC Berkeley**
+
 
 
 ## Papers
