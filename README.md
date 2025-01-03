@@ -27,6 +27,8 @@ Introduction, technology and open problem about offline reinforcement learning. 
 
 5.[Impressive Talk by Sergey Levine](https://www.youtube.com/watch?v=mXFH7xs_k_I) Good for grasping the new ideas for future growths in embodied AI. Talk was given in Dec. 2024. <br>1.Generalists are better than specialists. <br>2.Flow matching for robotic control<br> 3.GPT 4o style of reasoning for robotic control<br> 4.Distilling RL knowledge for robotic control <br> **Institution： UC Berkeley**
 
+6.[Learning Tutorials by Sergey Levine](https://drive.google.com/file/d/1_aJxnlwLsJYup-__qKi-ZnujQho6ibDk/view) **Institution： UC Berkeley**
+
 
 
 ## Papers
