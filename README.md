@@ -31,6 +31,8 @@ Introduction, technology and open problem about offline reinforcement learning. 
 
 7.[OpenAI tutorials for deep reinforcement learning](https://spinningup.openai.com/en/latest/spinningup/spinningup.html) **Institution： OpenAI**
 
+8.[OpenAI's former VP Lilian Weng's technical blog](https://lilianweng.github.io/)
+
 
 
 ## Papers
