@@ -29,6 +29,8 @@ Introduction, technology and open problem about offline reinforcement learning. 
 
 6.[Learning Tutorials by Sergey Levine](https://drive.google.com/file/d/1_aJxnlwLsJYup-__qKi-ZnujQho6ibDk/view) **Institution： UC Berkeley**
 
+7.[OpenAI tutorials for deep reinforcement learning](https://spinningup.openai.com/en/latest/spinningup/spinningup.html) **Institution： OpenAI**
+
 
 
 ## Papers
