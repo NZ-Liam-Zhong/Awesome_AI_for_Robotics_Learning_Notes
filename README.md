@@ -35,8 +35,11 @@ Introduction, technology and open problem about offline reinforcement learning. 
 <br>2.Trust Region Policy Optimization （TRPO):https: //spinningup.openai.com/en/latest/algorithms/trpo.html (A bit complicated)
 <br>3.Proximal Policy Optimization (PPO): https://spinningup.openai.com/en/latest/algorithms/ppo.html
 <br>4.Deep Deterministic Policy Gradient (DDPG): https://spinningup.openai.com/en/latest/algorithms/ddpg.html (important)
-<br>5.Twin Delayed DDPG:https://spinningup.openai.com/en/latest/algorithms/td3.html (1.2 Q functions choose smaller Q to update 2. Update policy less than Q)
+<br>5.Twin Delayed DDPG (TD3):https://spinningup.openai.com/en/latest/algorithms/td3.html (1.2 Q functions choose smaller Q to update 2. Update policy less than Q)
 <br>6.Soft Actor Critic (SAC) https://spinningup.openai.com/en/latest/algorithms/sac.html
+<br>(1) Unlike in TD3, the target also includes a term that comes from SAC’s use of entropy regularization.
+<br>(2) Unlike in TD3, the next-state actions used in the target come from the current policy instead of a target policy.
+<br>(3)Unlike in TD3, there is no explicit target policy smoothing. TD3 trains a deterministic policy, and so it accomplishes smoothing by adding random noise to the next-state actions. SAC trains a stochastic policy, and so the noise from that stochasticity is sufficient to get a similar effect.
 
 
 8.[OpenAI's former VP Lilian Weng's technical blog](https://lilianweng.github.io/) Blogs about RL and diffusion models. **Institution： None**
