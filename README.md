@@ -31,6 +31,12 @@ Introduction, technology and open problem about offline reinforcement learning. 
 
 7.[OpenAI tutorials for deep reinforcement learning](https://spinningup.openai.com/en/latest/spinningup/spinningup.html) Tutorials, algorithms and how to learn about reinforcement learning. **Institution： OpenAI**
 ![图片](https://github.com/user-attachments/assets/bfb1b999-51e4-4087-8995-ca676e4144e0)
+<br>1.Vanilla Polivy Gradient (VPG): https://spinningup.openai.com/en/latest/algorithms/vpg.html
+<br>2.Trust Region Policy Optimization （TRPO):https: //spinningup.openai.com/en/latest/algorithms/trpo.html (A bit complicated)
+<br>3.Proximal Policy Optimization (PPO): https://spinningup.openai.com/en/latest/algorithms/ppo.html
+<br>4.Deep Deterministic Policy Gradient (DDPG): https://spinningup.openai.com/en/latest/algorithms/ddpg.html (important)
+<br>5.Twin Delayed DDPG:https://spinningup.openai.com/en/latest/algorithms/td3.html (1.2 Q functions choose smaller Q to update 2. Update policy less than Q)
+<br>6.Soft Actor Critic (SAC) https://spinningup.openai.com/en/latest/algorithms/sac.html
 
 
 8.[OpenAI's former VP Lilian Weng's technical blog](https://lilianweng.github.io/) Blogs about RL and diffusion models. **Institution： None**
