@@ -100,6 +100,7 @@ An algorithm company. Designing AI algorithms for robotics. Its founders include
 
 
 ## 🖊Notes🖊
+### Jan.2025
 
 ### Nov.2024
 1.Bridge Sim2Real Gap: domain randomization, system identification, or improved simulator visuals <br>
