@@ -44,6 +44,9 @@ Introduction, technology and open problem about offline reinforcement learning. 
 
 8.[OpenAI's former VP Lilian Weng's technical blog](https://lilianweng.github.io/) Blogs about RL and diffusion models. **Institution： None**
 
+## Paper List
+1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"
+
 
 
 ## Papers
