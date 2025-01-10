@@ -46,6 +46,7 @@ Introduction, technology and open problem about offline reinforcement learning. 
 
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"
+2.[ICML 2024 paper list](https://icml.cc/virtual/2024/papers.html?filter=titles)
 
 
 
