@@ -74,6 +74,30 @@ A benchmark for offline goal-conditioned reinforcement learning to assess the ca
 
 6.[Avoid Everything: Model-Free Collision Avoidance with Expert-Guided Fine-Tuning](https://openreview.net/forum?id=gqFIybpsLX)The world is full of clutter. In order to operate effectively in uncontrolled, real world spaces, robots must navigate safely by executing tasks around obstacles while in proximity to hazards. Creating safe movement for robotic manipulators remains a long-standing challenge in robotics, particularly in environments with partial observability. In partially observed settings, classical techniques often fail. Learned end-to-end motion policies can infer correct solutions in these settings, but are as-yet unable to produce reliably safe movement when close to obstacles. In this work, we introduce Avoid Everything, a novel end-to-end system for generating collision-free motion toward a target, even targets close to obstacles. Avoid Everything consists of two parts: 1) Motion Policy Transformer (M$\pi$Former), a transformer architecture for end-to-end joint space control from point clouds, trained on over 1,000,000 expert trajectories and 2) a fine-tuning procedure we call Refining on Optimized Policy Experts (ROPE), which uses optimization to provide demonstrations of safe behavior in challenging states. With these techniques, we are able to successfully solve over 63% of reaching problems that caused the previous state of the art method to fail, resulting in an overall success rate of over 91% in challenging manipulation settings. **Adam Fishman,Aaron Walsman,Mohak Bhardwaj,Wentao Yuan,Balakumar Sundaralingam,Byron Boots,Dieter Fox CoRL2024**
 
+7.[Hard Tasks First: Multi-Task Reinforcement Learning Through Task Scheduling](https://raw.githubusercontent.com/mlresearch/v235/main/assets/cho24d/cho24d.pdf)Multi-task reinforcement learning (RL) faces the
+significant challenge of varying task difficulties,
+often leading to negative transfer when simpler
+tasks overshadow the learning of more complex
+ones. To overcome this challenge, we propose a
+novel algorithm, Scheduled Multi-Task Training
+(SMT), that strategically prioritizes more chal-
+lenging tasks, thereby enhancing overall learning
+efficiency. SMT introduces a dynamic task pri-
+oritization strategy, underpinned by an effective
+metric for assessing task difficulty. This metric en-
+sures an efficient and targeted allocation of train-
+ing resources, significantly improving learning
+outcomes. Additionally, SMT incorporates a reset
+mechanism that periodically reinitializes key net-
+work parameters to mitigate the simplicity bias,
+further enhancing the adaptability and robustness
+of the learning process across diverse tasks. The
+efficacy of SMT’s scheduling method is validated
+by significantly improving performance on chal-
+lenging Meta-World benchmarks. **Myungsik Cho Jongeui Park Suyoung Lee Youngchul Sung ICML 2024**
+![图片](https://github.com/user-attachments/assets/0a605d5a-d1b6-4316-b98c-8d76e6782df4)
+
+
 
 ### (2) Vision-Language Action Model 
 1.[MiniVLA: A Better VLA with a Smaller Footprint](https://ai.stanford.edu/blog/minivla/)
