@@ -173,8 +173,9 @@ An algorithm company. Designing AI algorithms for robotics. Its founders include
 
 
 ## 🖊Notes🖊
+
 ### Jan.2025
-1. Using H20 for OpenVLA LIBERO simulation will have floating point problems. I have sent the solving methods to the "pull requests" in OpenVLA repo.
+1.Using H20 for OpenVLA LIBERO simulation will have floating point problems. I have sent the solving methods to the "pull requests" in OpenVLA repo.
 
 ### Nov.2024
 1.Bridge Sim2Real Gap: domain randomization, system identification, or improved simulator visuals <br>
