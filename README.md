@@ -114,10 +114,33 @@ The OpenVLA by far the sota method in open-source vision-language action models.
 
 4.[Robotic Control via Embodied Chain-of-Thought Reasoning](https://openreview.net/forum?id=S70MgnIA0v) In the field of nature language processing, chain-of-thought (CoT) improves the performance of large language model quite a lot. This paper investigates whether this method can improve the performance of Embodied AI. However, embodied environments and tasks are more complex than that in large language model. So, "embodied" attribute should be added to CoT (ECoT), which aims to answer the following questions: Q1: Which reasoning steps are suitable for guiding policies in solving embodied robot manipulation tasks? A1: The ECoT contains TASK, PLAN, SUBTASK, MOVE, GRIPPER POSITION, VISIBLE OGJECTS, which not only focuses on "how to think", but also focuses on "how to look". Q2: How to generate datasets for reasoning? A2: generate the data by a pipeline using Prismatic VLM, Grounding DINO, OWL and SAM. Q3: How to increase the speed while reasoning? This question is for future work. The experiments show that ECoT improves the generation performance compared with OpenVLA and RT2X.**Michał Zawalski, William Chen, Karl Pertsch, Oier Mees, Chelsea Finn, Sergey Levine. CoRL 2024**
 
-5.[Autonomous Improvement of Instruction Following Skills via Foundation Models](https://arxiv.org/pdf/2407.20635)
-UNDER READING
+5.[Autonomous Improvement of Instruction Following Skills via Foundation Models](https://arxiv.org/pdf/2407.20635)Intelligent instruction-following robots capable of improving from au-
+tonomously collected experience have the potential to transform robot learning:
+instead of collecting costly teleoperated demonstration data, large-scale deploy-
+ment of fleets of robots can quickly collect larger quantities of autonomous data
+that can collectively improve their performance. However, autonomous improve-
+ment requires solving two key problems: (i) fully automating a scalable data col-
+lection procedure that can collect diverse and semantically meaningful robot data
+and (ii) learning from non-optimal, autonomous data with no human annotations.
+To this end, we propose a novel approach that addresses these challenges, allow-
+ing instruction-following policies to improve from autonomously collected data
+without human supervision. Our framework leverages vision-language models to
+collect and evaluate semantically meaningful experiences in new environments,
+and then utilizes a decomposition of instruction following tasks into (semantic)
+language-conditioned image generation and (non-semantic) goal reaching, which
+makes it significantly more practical to improve from this autonomously collected
+data without any human annotations. We carry out extensive experiments in the
+real world to demonstrate the effectiveness of our approach, and find that in a suite
+of unseen environments, the robot policy can be improved 2x with autonomously
+collected data. We open-source the code for our semantic autonomous improve-
+ment pipeline, as well as our autonomous dataset of 30.5K trajectories collected
+across five tabletop environments. **Zhiyuan Zhou, Pranav Atreya, Abraham Lee, Homer Walke, Oier Mees, Sergey Levine CoRL2024**
 
 6.[LLARVA: Vision-Action Instruction Tuning Enhances Robot Learning](https://openreview.net/forum?id=Q2lGXMZCv8)In recent years, instruction-tuned Large Multimodal Models (LMMs) have been successful at several tasks, including image captioning and visual question answering; yet leveraging these models remains an open question for robotics. Prior LMMs for robotics applications have been extensively trained on language and action data, but their ability to generalize in different settings has often been less than desired. To address this, we introduce LLARVA, a model trained with a novel instruction tuning method that leverages structured prompts to unify a range of robotic learning tasks, scenarios, and environments. Additionally, we show that predicting intermediate 2-D representations, which we refer to as visual traces, can help further align vision and action spaces for robot learning. We generate 8.5M image-visual trace pairs from the Open X-Embodiment dataset in order to pre-train our model, and we evaluate on 12 different tasks in the RLBench simulator as well as a physical Franka Emika Panda 7-DoF robot. Our experiments yield strong performance, demonstrating that LLARVA — using 2-D and language representations — performs well compared to several contemporary baselines, and can generalize across various robot environments and configurations. **Dantong Niu,Yuvan Sharma,Giscard Biamby,Jerome Quenum,Yutong Bai,Baifeng Shi,Trevor Darrell,Roei Herzig CoRL2024**
+
+7.[GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://proceedings.mlr.press/v162/du22c/du22c.pdf)GLaM (Generalist Language Model) is a sparse Mixture-of-Experts (MoE) language model that significantly improves the efficiency and scalability of large-scale language models. By activating only a small subset of parameters (e.g., 8% in the largest 1.2 trillion-parameter version) during inference, GLaM achieves superior performance in zero-shot, one-shot, and few-shot tasks compared to GPT-3, while reducing training energy consumption by two-thirds and halving inference costs. Its dynamic gating mechanism efficiently selects specialized experts for each input, making GLaM a more sustainable and versatile solution for advancing large-scale AI systems. (I haven't read the code) **Nan Du, etc ICML 2022**
+![图片](https://github.com/user-attachments/assets/c1ad61f8-17f8-4d90-aaa9-ded1f0339ac2)
+
 
 ### (3) Dataset & Dataset Generation
 1.[Automated Creation of Digital Cousins for Robust Policy Learning](https://arxiv.org/pdf/2410.07408)
