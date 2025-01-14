@@ -140,6 +140,7 @@ across five tabletop environments. **Zhiyuan Zhou, Pranav Atreya, Abraham Lee, H
 
 7.[GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://proceedings.mlr.press/v162/du22c/du22c.pdf)GLaM (Generalist Language Model) is a sparse Mixture-of-Experts (MoE) language model that significantly improves the efficiency and scalability of large-scale language models. By activating only a small subset of parameters (e.g., 8% in the largest 1.2 trillion-parameter version) during inference, GLaM achieves superior performance in zero-shot, one-shot, and few-shot tasks compared to GPT-3, while reducing training energy consumption by two-thirds and halving inference costs. Its dynamic gating mechanism efficiently selects specialized experts for each input, making GLaM a more sustainable and versatile solution for advancing large-scale AI systems. (I haven't read the code) **Nan Du, etc ICML 2022**
 ![图片](https://github.com/user-attachments/assets/c1ad61f8-17f8-4d90-aaa9-ded1f0339ac2)
+Expert: MoE based models are harder to converge
 
 
 ### (3) Dataset & Dataset Generation
