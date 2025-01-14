@@ -142,6 +142,22 @@ across five tabletop environments. **Zhiyuan Zhou, Pranav Atreya, Abraham Lee, H
 ![图片](https://github.com/user-attachments/assets/c1ad61f8-17f8-4d90-aaa9-ded1f0339ac2)
 <br>**Expert: MoE based models are harder to converge**
 
+8.[RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/)
+under reading
+
+9.[Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/pdf/2310.08864)
+under reading
+
+10.[π0: A Vision-Language-Action Flow Model for General Robot Control](https://www.physicalintelligence.company/download/pi0.pdf)
+under reading
+
+11.[OpenVLA: An Open-Source Vision-Language-Action Model](https://openreview.net/forum?id=ZMnD6QZAE6)
+under reading
+
+12.[RLDG: Robotic Generalist Policy Distillation via Reinforcement Learning](https://generalist-distillation.github.io/static/high_performance_generalist.pdf)
+under reading
+
+
 
 ### (3) Dataset & Dataset Generation
 1.[Automated Creation of Digital Cousins for Robust Policy Learning](https://arxiv.org/pdf/2410.07408)
