@@ -184,7 +184,27 @@ Speculative Execution: an optimization technique, where a task is performed in p
 5.[Event3DGS: Event-Based 3D Gaussian Splatting for High-Speed Robot Egomotion](https://openreview.net/forum?id=EyEE7547vy)By combining differentiable rendering with explicit point-based scene representations, 3D Gaussian Splatting (3DGS) has demonstrated breakthrough 3D reconstruction capabilities. However, to date 3DGS has had limited impact on robotics, where high-speed egomotion is pervasive: Egomotion introduces motion blur and leads to artifacts in existing frame-based 3DGS reconstruction methods. To address this challenge, we introduce Event3DGS, an event-based 3DGS framework. By exploiting the exceptional temporal resolution of event cameras, Event3GDS can reconstruct high-fidelity 3D structure and appearance under high-speed egomotion. Extensive experiments on multiple synthetic and real-world datasets demonstrate the superiority of Event3DGS compared with existing event-based dense 3D scene reconstruction frameworks; Event3DGS substantially improves reconstruction quality (+3dB) while reducing computational costs by 95%. Our framework also allows one to incorporate a few motion-blurred frame-based measurements into the reconstruction process to further improve appearance fidelity without loss of structural accuracy. **Tianyi Xiong,Jiayi Wu,Botao He,Cornelia Fermuller,Yiannis Aloimonos,Heng Huang,Christopher Metzler CoRL2024**
 
 ### (6) Generative Models
+**Generative Models are important for robot policy**, we can either use them as tools or understand them deeply<br>
 1.[Dreamitate: Real-World Visuomotor Policy Learning via Video Generation](https://openreview.net/forum?id=InT87E5sr4)A key challenge in manipulation is learning a policy that can robustly generalize to diverse visual environments. A promising mechanism for learning robust policies is to leverage video generative models, which are pretrained on large-scale datasets of internet videos. In this paper, we propose a visuomotor policy learning framework that fine-tunes a video diffusion model on human demonstrations of a given task. At test time, we generate an example of an execution of the task conditioned on images of a novel scene, and use this synthesized execution directly to control the robot. Our key insight is that using common tools allows us to effortlessly bridge the embodiment gap between the human hand and the robot manipulator. We evaluate our approach on 4 tasks of increasing complexity and demonstrate that capitalizing on internet-scale generative models allows the learned policy to achieve a significantly higher degree of generalization than existing behavior cloning approaches. **Junbang Liang,Ruoshi Liu,Ege Ozguroglu,Sruthi Sudhakar,Achal Dave,Pavel Tokmakov,Shuran Song,Carl Vondrick CoRL 2024**
+
+2.[InstructPix2Pix: Learning to Follow Image Editing Instructions](https://www.doubao.com/chat/794004774763266)We propose a method for editing images from human in-
+structions: given an input image and a written instruction
+that tells the model what to do, our model follows these in-
+structions to edit the image. To obtain training data for
+this problem, we combine the knowledge of two large pre-
+trained models—a language model (GPT-3) and a text-to-
+image model (Stable Diffusion)—to generate a large dataset
+of image editing examples. Our conditional diffusion model,
+InstructPix2Pix, is trained on our generated data, and gen-
+eralizes to real images and user-written instructions at in-
+ference time. Since it performs edits in the forward pass and
+does not require per-example fine-tuning or inversion, our
+model edits images quickly, in a matter of seconds. We show
+compelling editing results for a diverse collection of input
+images and written instructions.<br>
+![图片](https://github.com/user-attachments/assets/bd3ef3b7-2b3e-4908-9425-edfceac0a73a)
+
+
 
 ### (7) Sim2Real
 1.[TRANSIC: Sim-to-Real Policy Transfer by Learning from Online Correction](https://openreview.net/forum?id=lpjPft4RQT)Learning in simulation and transferring the learned policy to the real world has the potential to enable generalist robots. The key challenge of this approach is to address simulation-to-reality (sim-to-real) gaps. Previous methods often require domain-specific knowledge a priori. We argue that a straightforward way to obtain such knowledge is by asking humans to observe and assist robot policy execution in the real world. The robots can then learn from humans to close various sim-to-real gaps. We propose TRANSIC, a data-driven approach to enable successful sim-to-real transfer based on a human-in-the-loop framework. TRANSIC allows humans to augment simulation policies to overcome various unmodeled sim-to-real gaps holistically through intervention and online correction. Residual policies can be learned from human corrections and integrated with simulation policies for autonomous execution. We show that our approach can achieve successful sim-to-real transfer in complex and contact-rich manipulation tasks such as furniture assembly. Through synergistic integration of policies learned in simulation and from humans, TRANSIC is effective as a holistic approach to addressing various, often coexisting sim-to-real gaps. It displays attractive properties such as scaling with human effort. Videos and code are available at https://transic-robot.github.io/. **Yunfan Jiang,Chen Wang,Ruohan Zhang,Jiajun Wu,Li Fei-Fei CoRL2024**
