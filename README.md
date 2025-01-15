@@ -49,7 +49,23 @@ Model is always defined as M where: **Reward, S+ = M (S,a)**
 
 9.Book for Starters \
 ![图片](https://github.com/user-attachments/assets/b438b3cf-1661-43ba-a944-8f8f6ed9c8c0)\
-I have read it. It is good for starters but not as clear as the slides listed above. **Author: Yong Yu,etc**
+I have read it. It is good for starters but not as clear as the slides listed above. **Author: Yong Yu,etc**\
+Let me remind you that the standard Q learning equation is:\
+![图片](https://github.com/user-attachments/assets/6f2c2696-33aa-4bfd-b9c1-028a8b6909fe)\
+I will share some algorithms that the other materials havn't mentioned:\
+(1)[MPC] It introduces PETS(a kind of MPC) which means we have to have multiple models to sample some and choose the action that maximize the rewards calculated by the models we have chosen. (This book suggests that MPC is a kind of model based method but I think it kind of weired)\
+(2)[model based] Dyna-Q is a kind of model based method which uses the trajectory sampled before to learn the model and help to learn the Q function\
+(3)[MARL] IPPO is often used when multi-agent share the same policy. Just nothing diferent with PPO and optimize the policy.\
+**Offline RL**\
+Do you know what's the problems of offline RL?\
+Main problem is **Extrapolation Error**.\
+**Extrapolation Error** means **model tends to over-estimate the Q values which the model hanvn't seen**. In offline RL the network cannot be fed with new data, so the problem is extremely serious.\
+Solutions for that:
+1.Batch-constrained Policy **BCQ** (also based on Q learning). For deterministic policy, we only choose the action we have seen. For continous policy, we add noise to the action in policy optimization. \
+2.Conservative Q-learning **CQL**: Punish the Q values when over-estimating:\
+![图片](https://github.com/user-attachments/assets/adae1dcd-6e95-4f03-be51-36c639b338b0)
+
+
 
 10.[Introduction to Model Predictive Control](https://lab.vanderbilt.edu/taha/wp-content/uploads/sites/154/2017/10/EE5243_Module6.pdf)**Institution：Caltech**\
 Given cost and constraint we can solve the best policy for future mutiple steps and apply the first step.\
