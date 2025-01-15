@@ -44,6 +44,11 @@ Introduction, technology and open problem about offline reinforcement learning. 
 
 8.[OpenAI's former VP Lilian Weng's technical blog](https://lilianweng.github.io/) Blogs about RL and diffusion models. **Institution： None**
 
+9.Book for Starters \
+![图片](https://github.com/user-attachments/assets/b438b3cf-1661-43ba-a944-8f8f6ed9c8c0)\
+I have read it. It is good for starters but not as clear as the slides listed above.
+
+
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
 2.[ICML 2024 Oral paper list](https://icml.cc/virtual/2024/events/oral)
