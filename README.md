@@ -1,5 +1,5 @@
 # (Awesome) AI for Robotics Learning Notes
- **Author: [Undergrad Students from Sun Yat-sen University， Cantonese Area in China](https://www.sysu.edu.cn/sysuen/)**\
+ **Author: [Undergrad Students from Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/),[Canton (or Guangdong) Province in China](https://en.wikipedia.org/wiki/Guangdong), We Support [Cantonese Culture](https://en.wikipedia.org/wiki/Cantonese_culture)**\
 As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for robotics. Many scholars have different names for it, including embodied AI, smart robotics, etc. I will update the papers and content that I have read. Unlike the others, I will not just use python scirpt to get the information and abstract, I will share my thoughts after the reading. I promise that very single content listed below I have read it at least once. 
 ![image](https://github.com/user-attachments/assets/78cd784b-c257-40c0-9296-fda6a717147f)
 (Image by Grok)
