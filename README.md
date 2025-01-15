@@ -83,9 +83,18 @@ Given cost and constraint we can solve the best policy for future mutiple steps 
 
 13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531) I am still not an expert on flow matching, I will share after I think I have understood this.
 
-
-
-
+15. Master Student from SYSU, **Yixiong Li**, shared nice explanations on diffusion policy. The PPTs listed below are screenshots of his slides. <br>
+(1) Discontinuity: <br>
+![图片](https://github.com/user-attachments/assets/3b7d01dc-82ba-4311-9900-4c189f73cdea)
+(2) Multi-peak distribution，<br>
+![图片](https://github.com/user-attachments/assets/be388ec8-de35-4dc8-ba8e-dc7eb9d2dd2a)
+(3) Diffusion policy<br>
+![图片](https://github.com/user-attachments/assets/2807045d-cde5-4779-ab3b-01f863f4f3ed)
+(4)Difference with IBC<br>
+![图片](https://github.com/user-attachments/assets/a07305d2-dee2-4d51-b43d-2b0376b6c858)
+(5)Final Structure<br>
+![图片](https://github.com/user-attachments/assets/b23f162d-8d67-4ffc-94e7-104bfd9aeb90)
+![图片](https://github.com/user-attachments/assets/2dd9f952-a661-4e4b-a6a3-28e19305611c)
 
 
 
