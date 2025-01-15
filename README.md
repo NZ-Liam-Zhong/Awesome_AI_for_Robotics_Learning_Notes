@@ -76,7 +76,7 @@ Given cost and constraint we can solve the best policy for future mutiple steps 
 11.[Model Predictive Control Lecture](https://web.stanford.edu/class/ee364b/lectures/mpc_slides.pdf)\
 ![图片](https://github.com/user-attachments/assets/e72899a1-a5d0-435e-b135-35452fda284d)\
 ![图片](https://github.com/user-attachments/assets/d5b7ce96-723d-449a-af8e-8dd4bb523479)\
-![图片](https://github.com/user-attachments/assets/0891b0da-1a42-46b5-a84e-b7d7147a8a91)\
+![图片](https://github.com/user-attachments/assets/0891b0da-1a42-46b5-a84e-b7d7147a8a91)
 
 
 
