@@ -81,6 +81,10 @@ Given cost and constraint we can solve the best policy for future mutiple steps 
 ![图片](https://github.com/user-attachments/assets/d5b7ce96-723d-449a-af8e-8dd4bb523479)\
 ![图片](https://github.com/user-attachments/assets/0891b0da-1a42-46b5-a84e-b7d7147a8a91)
 
+12.[CVPR 2023 diffusion models Tutorials](https://cvpr2023-tutorial-diffusion-models.github.io/) Definitely worth watching, lots of famous reseachers in diffusion model contributed to this repo.
+
+13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531) I am still not an expert on flow matching, I will share after I think I have understood this.
+
 
 
 
