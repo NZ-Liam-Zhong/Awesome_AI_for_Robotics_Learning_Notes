@@ -42,7 +42,7 @@ Introduction, technology and open problem about offline reinforcement learning. 
 <br>(3)Unlike in TD3, there is no explicit target policy smoothing. TD3 trains a deterministic policy, and so it accomplishes smoothing by adding random noise to the next-state actions. SAC trains a stochastic policy, and so the noise from that stochasticity is sufficient to get a similar effect.
 <br><br>
 **What is a "model" based policy?**\
-Model is always defined as M where: **Reward, S+ = M (S,a)**
+Model is always defined as M where: **Reward, Si+1 = M (Si,a)**
 
 
 8.[OpenAI's former VP Lilian Weng's technical blog](https://lilianweng.github.io/) Blogs about RL and diffusion models. **Institution： None**
