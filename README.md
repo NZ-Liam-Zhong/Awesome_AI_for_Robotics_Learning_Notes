@@ -49,7 +49,22 @@ Model is always defined as M where: **Reward, S+ = M (S,a)**
 
 9.Book for Starters \
 ![图片](https://github.com/user-attachments/assets/b438b3cf-1661-43ba-a944-8f8f6ed9c8c0)\
-I have read it. It is good for starters but not as clear as the slides listed above.
+I have read it. It is good for starters but not as clear as the slides listed above. **Author: Yong Yu,etc**
+
+10.[Introduction to Model Predictive Control](https://lab.vanderbilt.edu/taha/wp-content/uploads/sites/154/2017/10/EE5243_Module6.pdf)**Institution：Caltech**\
+Given cost and constraint we can solve the best policy for future mutiple steps and apply the first step.\
+\
+**Big things in RL/IL Theory in 2024: 1.Offline RL 2.World Models (Model Based) 3.Model Predictive Control 4.Multi-agent Reinforcement Learning**\
+
+11.[Model Predictive Control Lecture](https://web.stanford.edu/class/ee364b/lectures/mpc_slides.pdf)\
+![图片](https://github.com/user-attachments/assets/e72899a1-a5d0-435e-b135-35452fda284d)\
+![图片](https://github.com/user-attachments/assets/d5b7ce96-723d-449a-af8e-8dd4bb523479)\
+![图片](https://github.com/user-attachments/assets/0891b0da-1a42-46b5-a84e-b7d7147a8a91)\
+
+
+
+
+
 
 
 ## Paper List
