@@ -63,7 +63,10 @@ Main problem is **Extrapolation Error**.\
 Solutions for that:
 1.Batch-constrained Policy **BCQ** (also based on Q learning). For deterministic policy, we only choose the action we have seen. For continous policy, we add noise to the action in policy optimization. \
 2.Conservative Q-learning **CQL**: Punish the Q values when over-estimating:\
-![图片](https://github.com/user-attachments/assets/adae1dcd-6e95-4f03-be51-36c639b338b0)
+![图片](https://github.com/user-attachments/assets/adae1dcd-6e95-4f03-be51-36c639b338b0)\
+**Goal-oriented RL (GoRL)**\
+(1)[HER] When it is hard to have correct trajectory in first few opochs, we can change the goal to fit the wrong trajectory in order to have denser rewards.\
+
 
 
 
