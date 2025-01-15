@@ -60,7 +60,7 @@ I will share some algorithms that the other materials havn't mentioned:\
 Do you know what's the problems of offline RL?\
 Main problem is **Extrapolation Error**.\
 **Extrapolation Error** means **model tends to over-estimate the Q values which the model hanvn't seen**. In offline RL the network cannot be fed with new data, so the problem is extremely serious.\
-Solutions for that:
+Solutions for that:<br>
 1.Batch-constrained Policy **BCQ** (also based on Q learning). For deterministic policy, we only choose the action we have seen. For continous policy, we add noise to the action in policy optimization. \
 2.Conservative Q-learning **CQL**: Punish the Q values when over-estimating:\
 ![图片](https://github.com/user-attachments/assets/adae1dcd-6e95-4f03-be51-36c639b338b0)\
@@ -68,11 +68,9 @@ Solutions for that:
 (1)[HER] When it is hard to have correct trajectory in first few opochs, we can change the goal to fit the wrong trajectory in order to have denser rewards.\
 
 
-
-
 10.[Introduction to Model Predictive Control](https://lab.vanderbilt.edu/taha/wp-content/uploads/sites/154/2017/10/EE5243_Module6.pdf)**Institution：Caltech**\
 Given cost and constraint we can solve the best policy for future mutiple steps and apply the first step.\
-\
+
 **Big things in RL/IL Theory in 2024: 1.Offline RL 2.World Models (Model Based) 3.Model Predictive Control 4.Multi-agent Reinforcement Learning**\
 
 11.[Model Predictive Control Lecture](https://web.stanford.edu/class/ee364b/lectures/mpc_slides.pdf)\
