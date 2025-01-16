@@ -269,6 +269,11 @@ images and written instructions.<br>
 
 ### (9) Multi-Robot & Multi-agent Reinforcement Learning (MARL)
 1.[CoViS-Net: A Cooperative Visual Spatial Foundation Model for Multi-Robot Applications](https://openreview.net/forum?id=KULBk5q24a)Autonomous robot operation in unstructured environments is often underpinned by spatial understanding through vision. Systems composed of multiple concurrently operating robots additionally require access to frequent, accurate and reliable pose estimates. Classical vision-based methods to regress relative pose are commonly computationally expensive (precluding real-time applications), and often lack data-derived priors for resolving ambiguities. In this work, we propose CoViS-Net, a cooperative, multi-robot visual spatial foundation model that learns spatial priors from data, enabling pose estimation as well as general spatial comprehension. Our model is fully decentralized, platform-agnostic, executable in real-time using onboard compute, and does not require existing networking infrastructure. CoViS-Net provides relative pose estimates and a local bird's-eye-view (BEV) representation, even without camera overlap between robots, and can predict BEV representations of unseen regions. We demonstrate its use in a multi-robot formation control task across various real-world settings. We provide supplementary material online and will open source our trained model in due course. https://sites.google.com/view/covis-net **Jan Blumenkamp,Steven Morad,Jennifer Gielis,Amanda Prorok CoRL2024**
+<br>
+**(1) Centralized Learning**
+<br>
+
+**(2) Decentralized learning** <br>
 
 ## Industry
 Here we update some tech advance in the industry🔥🔥🔥
