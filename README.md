@@ -81,7 +81,10 @@ Given cost and constraint we can solve the best policy for future mutiple steps 
 
 12.[CVPR 2023 diffusion models Tutorials](https://cvpr2023-tutorial-diffusion-models.github.io/) Definitely worth watching, lots of famous reseachers in diffusion model contributed to this repo.
 
-13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531) I am still not an expert on flow matching, I will share after I think I have understood this.
+13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531) I am still not an expert on flow matching, I will share after I think I have understood this.<br>
+
+14.Policy gradient (PG) algorithms such as PPO are less sample efficient than off-policy methods.
+
 
 15.Master Student from SYSU, **Yixiong Li**, shared nice explanations on diffusion policy. The PPTs listed below are screenshots of his slides. <br>
 (1) Discontinuity: <br>
