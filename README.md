@@ -110,6 +110,7 @@ is similar to the studies of policy-gradient methods in single-agent RL [34, 17 
 of these suggestions to be useful and include them in our implementation. In our analysis, we focus
 on factors that are either largely understudied in the existing literature or are completely unique to the
 multi-agent setting.<br>
+**This paper tells us that we don't have to improve the algorithm to publish papers, we can just correct a common belief**
 
 
 15.Master Student from SYSU, **Yixiong Li**, shared nice explanations on diffusion policy. The PPTs listed below are screenshots of his slides. <br>
