@@ -83,7 +83,33 @@ Given cost and constraint we can solve the best policy for future mutiple steps 
 
 13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531) I am still not an expert on flow matching, I will share after I think I have understood this.<br>
 
-14.Policy gradient (PG) algorithms such as PPO are less sample efficient than off-policy methods.
+14. MARL Notes [learn from this paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/9c1535a02f0ce079433344e14d910597-Paper-Datasets_and_Benchmarks.pdf):<br>
+(1) Policy gradient (PG) algorithms such as PPO are less sample efficient than off-policy methods. <br>
+(2) Value function in PPO is used for variance reduction<br>
+(3)MARL algorithms generally fall between two frameworks: centralized and decentralized learning.
+Centralized methods directly learn a single policy to produce the joint actions of all agents. In
+decentralized learning, each agent optimizes its reward independently; these methods can tackle
+general-sum games but may suffer from instability even in simple matrix games. Centralized
+training and decentralized execution (CTDE) algorithms fall in between these two frameworks.
+Several past CTDE methods adopt actor-critic structures and learn a centralized critic which
+takes global information as input. Value-decomposition (VD) methods are another class of CTDE
+algorithms which represent the joint Q-function as a function of agents’ local Q-functions
+and have established state of the art results in popular MARL benchmarks.<br>
+(4)The use of PPO in multi-agent domains is studied by several concurrent works. [7] empirically show
+that decentralized, independent PPO (IPPO) can achieve high success rates in several hard SMAC
+maps – however, the reported IPPO results remain overall worse than QMix, and the study is limited
+to SMAC. [ 25] perform a broad benchmark of various MARL algorithms and note that PPO-based
+methods often perform competitively to other methods. Our work, on the other hand, focuses on PPO
+and analyzes its performance on a more comprehensive set of cooperative multi-agent benchmarks.
+We show PPO achieves strong results in the vast majority of tasks and also identify and analyze
+different implementation and hyperparameter factors of PPO which are influential to its performance
+multi-agent domains; to the best of our knowledge, these factors have not been studied to this extent
+in past work, particularly in multi-agent contexts.<br>
+(5)Our empirical analysis of PPO’s implementation and hyperparameter factors in multi-agent settings
+is similar to the studies of policy-gradient methods in single-agent RL [34, 17 , 9, 1 ]. We find several
+of these suggestions to be useful and include them in our implementation. In our analysis, we focus
+on factors that are either largely understudied in the existing literature or are completely unique to the
+multi-agent setting.<br>
 
 
 15.Master Student from SYSU, **Yixiong Li**, shared nice explanations on diffusion policy. The PPTs listed below are screenshots of his slides. <br>
