@@ -124,7 +124,11 @@ multi-agent setting.<br>
 ![图片](https://github.com/user-attachments/assets/a07305d2-dee2-4d51-b43d-2b0376b6c858)
 (5)Final Structure<br>
 ![图片](https://github.com/user-attachments/assets/b23f162d-8d67-4ffc-94e7-104bfd9aeb90)
-![图片](https://github.com/user-attachments/assets/2dd9f952-a661-4e4b-a6a3-28e19305611c)
+![图片](https://github.com/user-attachments/assets/2dd9f952-a661-4e4b-a6a3-28e19305611c)<br>
+
+16. Big Names on Reinforcement learning. We can learn from their papers.<br>
+![图片](https://github.com/user-attachments/assets/1b3ba1ed-8e1b-4bda-844c-90daf2525c65)
+
 
 
 
