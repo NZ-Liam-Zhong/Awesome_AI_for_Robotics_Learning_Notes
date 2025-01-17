@@ -126,7 +126,7 @@ multi-agent setting.<br>
 ![图片](https://github.com/user-attachments/assets/b23f162d-8d67-4ffc-94e7-104bfd9aeb90)
 ![图片](https://github.com/user-attachments/assets/2dd9f952-a661-4e4b-a6a3-28e19305611c)<br>
 
-16. Big Names on Reinforcement learning. We can learn from their papers.<br>
+16. **Big Names on Reinforcement learning.** We can learn from their papers.<br>
 David Silver, John Schulman, Sergey Levine, Chelsea Finn, Danijar Hafner, Martin Riedmiller, Marc Bellemare, Rishabh Agarwal, Scott Fujimoto, Ben Van Roy, Stefano Ermon, Jeff Clune, Philip Thomas, Phillip Isola, Tuomas Haarnoja, Deepak Pathak, Abhinav Gupta, Satinder Singh, Doina Precup, Michael Littman, Sutton
 
 
