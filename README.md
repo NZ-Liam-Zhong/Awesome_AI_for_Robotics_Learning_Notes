@@ -127,10 +127,21 @@ multi-agent setting.<br>
 ![图片](https://github.com/user-attachments/assets/2dd9f952-a661-4e4b-a6a3-28e19305611c)<br>
 
 16. **Big Names on Reinforcement learning.** We can learn from their papers.<br>
-David Silver, John Schulman, Sergey Levine, Chelsea Finn, Danijar Hafner, Martin Riedmiller, Marc Bellemare, Rishabh Agarwal, Scott Fujimoto, Ben Van Roy, Stefano Ermon, Jeff Clune, Philip Thomas, Phillip Isola, Tuomas Haarnoja, Deepak Pathak, Abhinav Gupta, Satinder Singh, Doina Precup, Michael Littman, Sutton
+David Silver, John Schulman, Sergey Levine, Chelsea Finn, Danijar Hafner, Martin Riedmiller, Marc Bellemare, Rishabh Agarwal, Scott Fujimoto, Ben Van Roy, Stefano Ermon, Jeff Clune, Philip Thomas, Phillip Isola, Tuomas Haarnoja, Deepak Pathak, Abhinav Gupta, Satinder Singh, Doina Precup, Michael Littman, Sutton<br><br>
 
-
-
+17.[Is Value Learning Really the Main Bottleneck in Offline RL?](https://arxiv.org/pdf/2406.09329) Good paper worth reading again and again.<br>
+What is the bottleneck?<br> 
+(B1) imperfect value function estimation <br>
+(B2) imperfect policy extraction guided by the learned value function <br> 
+(B3) imperfect policy generalization to states that it will visit during evaluation. <br>
+B3 has most severe prblem.<br>
+Solution 1: Improve offline data coverage<br>
+Solution 2: Test-time policy improvement<br>
+(1) On-the-fly policy extraction (OPEX).<br>
+(2) Test-time training (TTT).<br>
+He has done experiments on <br>
+![图片](https://github.com/user-attachments/assets/4d63d661-9b68-47d7-bb52-8bb1693a7f40)
+![图片](https://github.com/user-attachments/assets/6261b875-3df8-4e29-8990-ceb936d76fa9)
 
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
