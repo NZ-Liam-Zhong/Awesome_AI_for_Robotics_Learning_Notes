@@ -78,7 +78,7 @@ Given cost and constraint we can solve the best policy for future mutiple steps 
 
 12.[CVPR 2023 diffusion models Tutorials](https://cvpr2023-tutorial-diffusion-models.github.io/) Definitely worth watching, lots of famous reseachers in diffusion model contributed to this repo.
 
-13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531) I am still not an expert on flow matching, I will share after I think I have understood this.<br>
+13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531) I am still not an expert on flow matching, I will share after I think I have understood this.
 
 14. MARL Notes [learn from this paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/9c1535a02f0ce079433344e14d910597-Paper-Datasets_and_Benchmarks.pdf):<br>
 (1) Policy gradient (PG) algorithms such as PPO are less sample efficient than off-policy methods. <br>
@@ -121,10 +121,10 @@ multi-agent setting.<br>
 ![图片](https://github.com/user-attachments/assets/a07305d2-dee2-4d51-b43d-2b0376b6c858)
 (5)Final Structure<br>
 ![图片](https://github.com/user-attachments/assets/b23f162d-8d67-4ffc-94e7-104bfd9aeb90)
-![图片](https://github.com/user-attachments/assets/2dd9f952-a661-4e4b-a6a3-28e19305611c)<br>
+![图片](https://github.com/user-attachments/assets/2dd9f952-a661-4e4b-a6a3-28e19305611c)
 
 16. **Big Names on Reinforcement learning.** We can learn from their papers.<br>
-David Silver, John Schulman, Sergey Levine, Chelsea Finn, Danijar Hafner, Martin Riedmiller, Marc Bellemare, Rishabh Agarwal, Scott Fujimoto, Ben Van Roy, Stefano Ermon, Jeff Clune, Philip Thomas, Phillip Isola, Tuomas Haarnoja, Deepak Pathak, Abhinav Gupta, Satinder Singh, Doina Precup, Michael Littman, Sutton<br><br>
+David Silver, John Schulman, Sergey Levine, Chelsea Finn, Danijar Hafner, Martin Riedmiller, Marc Bellemare, Rishabh Agarwal, Scott Fujimoto, Ben Van Roy, Stefano Ermon, Jeff Clune, Philip Thomas, Phillip Isola, Tuomas Haarnoja, Deepak Pathak, Abhinav Gupta, Satinder Singh, Doina Precup, Michael Littman, Sutton<br>
 
 17.[Is Value Learning Really the Main Bottleneck in Offline RL?](https://arxiv.org/pdf/2406.09329) Good paper worth reading again and again.<br>
 What is the bottleneck?<br> 
