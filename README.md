@@ -140,6 +140,8 @@ He has done experiments on <br>
 ![图片](https://github.com/user-attachments/assets/4d63d661-9b68-47d7-bb52-8bb1693a7f40)
 ![图片](https://github.com/user-attachments/assets/6261b875-3df8-4e29-8990-ceb936d76fa9)
 
+18.[Diffusion Meets Flow Matching: Two Sides of the Same Coin](https://diffusionflow.github.io/) These slides are easy to comprehend, and it's easy to compare the differences. I will share the information after I think I have deeply understood it. **Affiliation: Google Deepmind**
+
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
 2.[ICML 2024 Oral paper list](https://icml.cc/virtual/2024/events/oral)
