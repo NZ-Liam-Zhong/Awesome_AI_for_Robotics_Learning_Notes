@@ -254,7 +254,8 @@ under reading
 12.[RLDG: Robotic Generalist Policy Distillation via Reinforcement Learning](https://generalist-distillation.github.io/static/high_performance_generalist.pdf)
 under reading
 
-
+13.[FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/abs/2501.09747)
+Even though the traditional tokenizer of action is efficient on low-frequency tasks, it cannot handle highly dexterous and high-frequency tasks. This paper introduced a new tokenizer for continuous action based on compression method. It use DCT to transfer the action from time domain to frequency domain, and then use scale-and-round method to quantize the frequency compoents, flatten the frequency matrix to action sequence (low-frequency components first), and train a BPE network to losslessly compress the sequence into action token. The new tokenizer dramatically decrease the training time compared with pi0 and openvla and remarkably handle the dexterous tasks. 
 
 ### (3) Dataset & Dataset Generation
 1.[Automated Creation of Digital Cousins for Robust Policy Learning](https://arxiv.org/pdf/2410.07408)
