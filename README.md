@@ -142,6 +142,8 @@ He has done experiments on <br>
 
 18.[Diffusion Meets Flow Matching: Two Sides of the Same Coin](https://diffusionflow.github.io/) These slides are easy to comprehend, and it's easy to compare the differences. I will share the information after I think I have deeply understood it. **Affiliation: Google Deepmind**
 
+19.[Courses on Robot Learning](https://neo-x.github.io/teaching/ift6163) Course about robot learning, mainly devided into RL/IL theory, how to bridge the sim2real gap and the learning the reward function. **Affiliation: Glen Berseth, University De Montreal**
+
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
 2.[ICML 2024 Oral paper list](https://icml.cc/virtual/2024/events/oral)
