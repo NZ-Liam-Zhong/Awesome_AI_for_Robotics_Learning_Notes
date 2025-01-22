@@ -146,21 +146,19 @@ He has done experiments on <br>
 
 20.Notes on Flow Matching:<br>
 Flow Matching is similar to DDIM, in terms of loss, the loss of DDIM is equal to:<br>
-![be129779a55d69aaaf2fc4a863405db](https://github.com/user-attachments/assets/585fbaf4-25ad-4cce-929c-dcfba2876bee)
+![be129779a55d69aaaf2fc4a863405db](https://github.com/user-attachments/assets/585fbaf4-25ad-4cce-929c-dcfba2876bee)<br>
 **i) When Noise Intensity is High**<br>
 
 Since the model's estimated original image is defined as:  
-\[
-\hat{x}_0 = \frac{x_t - \sigma_t \hat{\epsilon}}{\alpha_t},
-\]  
+![image](https://github.com/user-attachments/assets/048ffa68-7f1d-402c-8dd5-dae1aaaf6d79)<br>
+
 when noise intensity is high (i.e., \(\sigma_t\) is large and \(\alpha_t\) is small), the error between the network's predicted \(\hat{\epsilon}\) and the true noise \(\epsilon\) gets amplified in \(\hat{x}_0\). Common DDIM sampling relies on \(\hat{x}_0\) to calculate the next state at each sampling step, meaning that during the early stages of sampling (when noise intensity is high), the sampling quality is more likely to be affected. 
 
 Moreover, there is an argument that the difficulty for the model to estimate the added noise increases when the noise intensity is high. Essentially, the model is being fed with what is nearly pure noise, and it still has to identify the specific noise components that were added.
 
 In contrast, FM incorporates a weighting term in its loss function,  
-\[
-\eta = \frac{\sigma_t}{\alpha_t},
-\]  
+![image](https://github.com/user-attachments/assets/f03df80a-9be1-4ed1-b508-5821605417ca)<br>
+
 which increases when noise intensity is high. This effectively raises the penalty during the early sampling stages, encouraging the model to pay greater attention to prediction errors under high noise conditions. As a result, FM may perform better than DM in these stages.
 
 **ii) When Noise Intensity is Low**<br>
@@ -168,22 +166,17 @@ which increases when noise intensity is high. This effectively raises the penalt
 When the noise intensity is low, \(\eta\) approaches 0, and the FM loss function becomes nearly identical to that of DM. At first glance, this might not seem advantageous. However, if the prediction target is the original image, FM can still outperform DM by a small margin (even if it's just for show, haha!).
 
 From the earlier derivations, when the prediction target is the original image, the following relationship holds:  
-\[
-||\hat{x}_0 - x||_2^2 = \frac{\sigma_t^2}{\alpha_t^2}||\hat{\epsilon} - \epsilon||_2^2.
-\]  
+![image](https://github.com/user-attachments/assets/92e5f0f4-eb0b-4a39-96e1-01e6bb946162)<br>
+
 When noise intensity is low (\(\sigma_t\) is small and \(\alpha_t\) is large), the model places less emphasis on noise errors. Especially as \(\sigma_t\) approaches 0, the model tends to ignore prediction errors. Additionally, with  
-\[
-\hat{\epsilon} = \frac{x_t - \alpha_t \hat{x}_0}{\sigma_t},
-\]  
+![image](https://github.com/user-attachments/assets/0862cf04-411c-4b4f-ade4-d16210944bc9)<br>
+
 any prediction errors in \(\hat{x}_0\) are amplified in \(\hat{\epsilon}\), which impacts the sampling quality toward the end of the sampling process (when noise intensity is low). 
 
 In other words, just when the model needs to be more cautious (\(\hat{\epsilon}\) amplifies errors), it pays less attention to errors (as the loss weight decreases). A clear drawback! 
 
 Furthermore, when noise intensity is very low, using the original image as the target may not provide strong guidance to the model. This is because the input to the model is already very similar to the original image, resulting in low information entropy.
 
---- 
-
-Let me know if you need additional refinements!
 
 
 ## Paper List
