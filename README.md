@@ -78,7 +78,7 @@ Given cost and constraint we can solve the best policy for future mutiple steps 
 
 12.[CVPR 2023 diffusion models Tutorials](https://cvpr2023-tutorial-diffusion-models.github.io/) Definitely worth watching, lots of famous reseachers in diffusion model contributed to this repo.
 
-13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531) I am still not an expert on flow matching, I will share after I think I have understood this.
+13.[Flow Matching by Meta](https://nips.cc/virtual/2024/tutorial/99531)
 
 14. MARL Notes [learn from this paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/9c1535a02f0ce079433344e14d910597-Paper-Datasets_and_Benchmarks.pdf):<br>
 (1) Policy gradient (PG) algorithms such as PPO are less sample efficient than off-policy methods. <br>
@@ -140,9 +140,51 @@ He has done experiments on <br>
 ![图片](https://github.com/user-attachments/assets/4d63d661-9b68-47d7-bb52-8bb1693a7f40)
 ![图片](https://github.com/user-attachments/assets/6261b875-3df8-4e29-8990-ceb936d76fa9)
 
-18.[Diffusion Meets Flow Matching: Two Sides of the Same Coin](https://diffusionflow.github.io/) These slides are easy to comprehend, and it's easy to compare the differences. I will share the information after I think I have deeply understood it. **Affiliation: Google Deepmind**
+18.[Diffusion Meets Flow Matching: Two Sides of the Same Coin](https://diffusionflow.github.io/) These slides are easy to comprehend, and it's easy to compare the differences. **Affiliation: Google Deepmind**
 
 19.[Courses on Robot Learning](https://neo-x.github.io/teaching/ift6163) Course about robot learning, mainly devided into RL/IL theory, how to bridge the sim2real gap and the learning the reward function. **Affiliation: Glen Berseth, University De Montreal**
+
+20.Notes on Flow Matching:<br>
+Flow Matching is similar to DDIM, in terms of loss, the loss of DDIM is equal to:<br>
+![be129779a55d69aaaf2fc4a863405db](https://github.com/user-attachments/assets/585fbaf4-25ad-4cce-929c-dcfba2876bee)
+**i) When Noise Intensity is High**<br>
+
+Since the model's estimated original image is defined as:  
+\[
+\hat{x}_0 = \frac{x_t - \sigma_t \hat{\epsilon}}{\alpha_t},
+\]  
+when noise intensity is high (i.e., \(\sigma_t\) is large and \(\alpha_t\) is small), the error between the network's predicted \(\hat{\epsilon}\) and the true noise \(\epsilon\) gets amplified in \(\hat{x}_0\). Common DDIM sampling relies on \(\hat{x}_0\) to calculate the next state at each sampling step, meaning that during the early stages of sampling (when noise intensity is high), the sampling quality is more likely to be affected. 
+
+Moreover, there is an argument that the difficulty for the model to estimate the added noise increases when the noise intensity is high. Essentially, the model is being fed with what is nearly pure noise, and it still has to identify the specific noise components that were added.
+
+In contrast, FM incorporates a weighting term in its loss function,  
+\[
+\eta = \frac{\sigma_t}{\alpha_t},
+\]  
+which increases when noise intensity is high. This effectively raises the penalty during the early sampling stages, encouraging the model to pay greater attention to prediction errors under high noise conditions. As a result, FM may perform better than DM in these stages.
+
+**ii) When Noise Intensity is Low**<br>
+
+When the noise intensity is low, \(\eta\) approaches 0, and the FM loss function becomes nearly identical to that of DM. At first glance, this might not seem advantageous. However, if the prediction target is the original image, FM can still outperform DM by a small margin (even if it's just for show, haha!).
+
+From the earlier derivations, when the prediction target is the original image, the following relationship holds:  
+\[
+||\hat{x}_0 - x||_2^2 = \frac{\sigma_t^2}{\alpha_t^2}||\hat{\epsilon} - \epsilon||_2^2.
+\]  
+When noise intensity is low (\(\sigma_t\) is small and \(\alpha_t\) is large), the model places less emphasis on noise errors. Especially as \(\sigma_t\) approaches 0, the model tends to ignore prediction errors. Additionally, with  
+\[
+\hat{\epsilon} = \frac{x_t - \alpha_t \hat{x}_0}{\sigma_t},
+\]  
+any prediction errors in \(\hat{x}_0\) are amplified in \(\hat{\epsilon}\), which impacts the sampling quality toward the end of the sampling process (when noise intensity is low). 
+
+In other words, just when the model needs to be more cautious (\(\hat{\epsilon}\) amplifies errors), it pays less attention to errors (as the loss weight decreases). A clear drawback! 
+
+Furthermore, when noise intensity is very low, using the original image as the target may not provide strong guidance to the model. This is because the input to the model is already very similar to the original image, resulting in low information entropy.
+
+--- 
+
+Let me know if you need additional refinements!
+
 
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
