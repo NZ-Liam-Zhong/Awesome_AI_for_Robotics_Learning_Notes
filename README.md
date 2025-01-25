@@ -178,8 +178,12 @@ In other words, just when the model needs to be more cautious (\(\hat{\epsilon}\
 Furthermore, when noise intensity is very low, using the original image as the target may not provide strong guidance to the model. This is because the input to the model is already very similar to the original image, resulting in low information entropy.
 
 21.[DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) We can learn from the post-training methods from LLM training.
-
-
+The RL algorithm it used<br>
+![image](https://github.com/user-attachments/assets/f53b4afa-d644-4c98-9929-3c72d6aad2a2)
+the reward function<br>
+![image](https://github.com/user-attachments/assets/23ae04d4-293d-41ff-aaf2-e2bbb8fab824)
+the format<br>
+![image](https://github.com/user-attachments/assets/2498fb10-246a-48d5-aabd-a803a9708201)
 
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
