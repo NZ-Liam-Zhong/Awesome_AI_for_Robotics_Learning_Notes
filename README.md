@@ -33,7 +33,8 @@ Introduction, technology and open problem about offline reinforcement learning. 
 ![图片](https://github.com/user-attachments/assets/bfb1b999-51e4-4087-8995-ca676e4144e0)
 <br>1.Vanilla Polivy Gradient (VPG): https://spinningup.openai.com/en/latest/algorithms/vpg.html
 <br>2.Trust Region Policy Optimization （TRPO):https: //spinningup.openai.com/en/latest/algorithms/trpo.html (A bit complicated)
-<br>3.Proximal Policy Optimization (PPO): https://spinningup.openai.com/en/latest/algorithms/ppo.html
+<br>3.Proximal Policy Optimization (PPO): https://spinningup.openai.com/en/latest/algorithms/ppo.html<br>
+![image](https://github.com/user-attachments/assets/efa07287-c93c-4fc0-8062-7ef327ee3d2b) means we don't want the new policy different too much with the old policy.<br>
 <br>4.Deep Deterministic Policy Gradient (DDPG): https://spinningup.openai.com/en/latest/algorithms/ddpg.html (important)
 <br>5.Twin Delayed DDPG (TD3):https://spinningup.openai.com/en/latest/algorithms/td3.html (1.2 Q functions choose smaller Q to update 2. Update policy less than Q)
 <br>6.Soft Actor Critic (SAC) https://spinningup.openai.com/en/latest/algorithms/sac.html
