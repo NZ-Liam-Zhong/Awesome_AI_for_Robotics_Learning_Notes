@@ -36,6 +36,7 @@ Introduction, technology and open problem about offline reinforcement learning. 
 <br>3.Proximal Policy Optimization (PPO): https://spinningup.openai.com/en/latest/algorithms/ppo.html<br>
 ![image](https://github.com/user-attachments/assets/efa07287-c93c-4fc0-8062-7ef327ee3d2b) means we want it to converge more robustly.<br>
 ![image](https://github.com/user-attachments/assets/7af7bbf4-adb2-41e3-a12a-6aa2408bfcbf)<br>
+[Good chinese blog](https://blog.csdn.net/qq_41626059/article/details/114781844?utm_source=chatgpt.com)<br>
 <br>4.Deep Deterministic Policy Gradient (DDPG): https://spinningup.openai.com/en/latest/algorithms/ddpg.html (important)
 <br>5.Twin Delayed DDPG (TD3):https://spinningup.openai.com/en/latest/algorithms/td3.html (1.2 Q functions choose smaller Q to update 2. Update policy less than Q)
 <br>6.Soft Actor Critic (SAC) https://spinningup.openai.com/en/latest/algorithms/sac.html
