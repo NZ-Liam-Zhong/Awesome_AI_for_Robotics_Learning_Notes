@@ -187,6 +187,8 @@ the reward function<br>
 the format<br>
 ![image](https://github.com/user-attachments/assets/2498fb10-246a-48d5-aabd-a803a9708201)
 
+22.[Hunyi Lee's course on machine learning](https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html) It has a part which focuses on reinforcement learning.
+
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
 2.[ICML 2024 Oral paper list](https://icml.cc/virtual/2024/events/oral)
