@@ -177,6 +177,8 @@ In other words, just when the model needs to be more cautious (\(\hat{\epsilon}\
 
 Furthermore, when noise intensity is very low, using the original image as the target may not provide strong guidance to the model. This is because the input to the model is already very similar to the original image, resulting in low information entropy.
 
+21.[DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) We can learn from the post-training methods from LLM training.
+
 
 
 ## Paper List
