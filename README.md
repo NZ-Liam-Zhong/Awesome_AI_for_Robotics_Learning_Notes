@@ -196,8 +196,7 @@ selected slides:<br>
 23.[Slides about Monte Carlo Methods](https://math.arizona.edu/~tgk/mc/)<br>
 Among them, [importance sampling chapter](https://math.arizona.edu/~tgk/mc/book_chap6.pdf)<br>
 This analysis is important<br>
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/cca0c7e5-ef3d-4f87-a4da-42b6bca501cf)
 
 
 ## Paper List
