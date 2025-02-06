@@ -193,6 +193,12 @@ selected slides:<br>
 1. Same expetations but not the same variance<br>
 ![image](https://github.com/user-attachments/assets/f3fa54af-47e0-4fbd-aa9a-29b87efac955)
 
+23.[Slides about Monte Carlo Methods](https://math.arizona.edu/~tgk/mc/)<br>
+Among them, [importance sampling chapter](https://math.arizona.edu/~tgk/mc/book_chap6.pdf)<br>
+This analysis is important<br>
+![Uploading image.png…]()
+
+
 
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
