@@ -202,6 +202,10 @@ theta<br>
 
 24.[Importance Sampling by CMU](https://www2.stat.duke.edu/~st118/Publication/impsamp.pdf) Importance Sampling: A review<br>
 
+25.[Review on importance Sampling](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7974876) Especially AIS (adaptive Importance Sampling).
+![image](https://github.com/user-attachments/assets/78a708c3-2712-4255-a52a-f161c79dda16)
+![image](https://github.com/user-attachments/assets/99fe6b9b-e292-433f-9f66-6539cb9f89e0)
+
 
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
