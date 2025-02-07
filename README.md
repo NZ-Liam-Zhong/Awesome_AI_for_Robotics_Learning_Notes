@@ -200,6 +200,8 @@ This analysis is important<br>
 theta<br>
 ![image](https://github.com/user-attachments/assets/25e52355-a3f3-41c8-8916-f1f440850323)
 
+24.[Importance Sampling by CMU](https://www2.stat.duke.edu/~st118/Publication/impsamp.pdf) Importance Sampling: A review<br>
+
 
 ## Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
