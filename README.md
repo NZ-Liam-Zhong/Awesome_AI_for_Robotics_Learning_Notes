@@ -286,8 +286,9 @@ promote a cooperative exploration of the target<br>
 ![image](https://github.com/user-attachments/assets/78a708c3-2712-4255-a52a-f161c79dda16)
 ![image](https://github.com/user-attachments/assets/99fe6b9b-e292-433f-9f66-6539cb9f89e0)
 
+26.[“A population Monte Carlo scheme with transformed weights and its application to stochastic kinetic models](https://arxiv.org/pdf/1208.5600)
 
-## Paper List
+# Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
 2.[ICML 2024 Oral paper list](https://icml.cc/virtual/2024/events/oral)
 <br> [Reinforcement Learning papers in ICML 2024](https://icml.cc/virtual/2024/papers.html?filter=titles&search=reinforcement+learning)<br>
