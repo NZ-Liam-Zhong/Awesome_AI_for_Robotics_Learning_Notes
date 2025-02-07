@@ -203,6 +203,86 @@ theta<br>
 24.[Importance Sampling by CMU](https://www2.stat.duke.edu/~st118/Publication/impsamp.pdf) Importance Sampling: A review<br>
 
 25.[Review on importance Sampling](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7974876) Especially AIS (adaptive Importance Sampling).
+Standard PMC [19]: In this algorithm, N proposals are 
+adapted via resampling, which is a well-known mechanism 
+in MC methodologies that allows us to select the most 
+promising samples and to eliminate those with low weights 
+to avoid particle degeneracy [29]. At each iteration, exactly 
+one sample is drawn from each proposal and weighted 
+with the standard IS weights calculated by (15). Then, N 
+multinomial resampling steps (with replacement) are per
+formed within the population of the N drawn samples (one 
+sample is generated per proposal, i.e., K
+ 1
+ = ). The surviv
+ing set of particles constitutes the set of location parame
+ters for the next population of proposals.<br>
+ ■ M-PMC [20]: For this method, the proposal used to gener
+ate K samples at each iteration is a mixture of N kernels, 
+where the mixture is adapted to decrease the Kullback
+Leibler (KL) divergence between the mixture and the 
+target. In its simplest version, the algorithm adapts the 
+location, scale, and weight of each kernel in the mixture.<br>
+ ■ Nonlinear PMC (N-PMC) [32]: In this algorithm, the 
+weights are computed in two steps. First, standard impor
+tance weights w( )
+ j
+ k are obtained. Then, a nonlinear func
+tion is applied to calculate a set of transformed weights 
+{ 
+k
+ w( )
+ j
+ .
+ The goal of this transformation is to reduce the vari
+ance of the weights and avoid, or at least mitigate, the 
+IEEE SIgnal ProcESSIng MagazInE   |   July 2017   |
+ Authorized licensed use limited to: SUN YAT-SEN UNIVERSITY. Downloaded on February 07,2025 at 06:57:33 UTC from IEEE Xplore.  Restrictions apply. 
+67 IEEE SIgnal ProcESSIng MagazInE   |   July 2017   |
+ weight degeneracy problem. While the standard weights 
+can be used for estimation, the nonlinearly transformed 
+weights are crucially used for the adaptation step. The 
+ latter can be carried out in different ways, with [32] advo
+cating for a simple Gaussian proposal where both the 
+mean vector and the covariance matrix are adapted through 
+the iterations.<br>
+ ■ Layered AIS (LAIS) [23]: The adaptive process of the 
+LAIS algorithm is independent of the samples drawn at 
+each iteration. In particular, the algorithm can be seen as a 
+two-layer procedure in which the location parameters of 
+the proposals are adapted through one or several MCMC 
+steps with the target as the stationary distribution. In its 
+basic version, a single MCMC step is independently per
+formed at each location parameter.<br>
+ ■ DM-PMC [24]: This algorithm meets the simplicity of 
+the standard PMC of [19] with a very high performance. 
+DM-PMC calculates the weights using (16) instead of 
+(15), which provides two important advantages, specifi
+cally, the variance of the estimators is decreased (see 
+[25]) and the resampling step with the DM weights pro
+motes the replication of proposals in relevant parts of the 
+target that are underrepresented by the set of proposals 
+(i.e., the exploration is coordinated). DM-PMC generates 
+K samples per each of the N proposals (instead of one, 
+as in [19]). At each iteration, the  population of KN 
+ samples must be reduced to N via either global or local 
+resampling (LR).<br>
+ ■ AMIS [21]: In this algorithm, just one proposal is used 
+and adapted over the iterations. The adaptive procedure 
+consists of estimating the moments of the target with the 
+available set of K weighted samples and fitting the 
+moments of the proposal. Its key feature is the reweight
+ing of all of the past samples with a temporal mixture 
+weight where the whole sequence of proposals is used in 
+the denominator.<br>
+ ■ Gradient APIS (GAPIS) [34]: Similar to the LAIS algo
+rithm, GAPIS adapts N proposals by a process that is 
+independent of the samples. In its basic  version, the loca
+tion parameters of the proposals are adapted via a gradient 
+ascent of the target and the scale parameter by using the 
+Hessian of the target. An advanced implementation is pro
+posed that adds a repulsive interaction among proposals to 
+promote a cooperative exploration of the target<br>
 ![image](https://github.com/user-attachments/assets/78a708c3-2712-4255-a52a-f161c79dda16)
 ![image](https://github.com/user-attachments/assets/99fe6b9b-e292-433f-9f66-6539cb9f89e0)
 
