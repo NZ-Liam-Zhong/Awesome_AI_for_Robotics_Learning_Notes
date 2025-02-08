@@ -293,6 +293,14 @@ promote a cooperative exploration of the target<br>
 Other Materials:(When the variance will be zero and why)<br>
 ![image](https://github.com/user-attachments/assets/0f15d2b6-fc9b-4387-8a40-4b90eccc4459)
 
+28.mportance Sampling is a method commonly used to estimate expected values in probability distributions or to perform Monte Carlo simulations, primarily by weighting samples to improve the efficiency of estimation. However, it also has some issues, mainly including the following:<br>
+
+Excessive Weight Variance: The core of importance sampling is to calculate the weighted average of samples, where the weights are typically the ratio of the target distribution to the sampling distribution. If some samples have very large weights while others have very small weights, the overall estimation can be very inaccurate, even leading to a very large variance in the estimation, affecting the stability of the results.<br>
+
+Choosing an Inappropriate Sampling Distribution: If the sampling distribution differs significantly from the target distribution (i.e., the importance sampling ratio varies greatly), the weights of the samples may concentrate on a few points, leading to increased variance. This can make importance sampling inefficient.<br>
+
+Computational Burden: For high-dimensional problems, importance sampling may require a very large number of samples to accurately estimate the expected value. Especially when the target distribution is complex, the calculation of weights can be very time-consuming, further increasing the computational burden.<br>
+
 # Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
 2.[ICML 2024 Oral paper list](https://icml.cc/virtual/2024/events/oral)
