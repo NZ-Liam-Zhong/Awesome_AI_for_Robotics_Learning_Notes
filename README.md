@@ -289,6 +289,8 @@ promote a cooperative exploration of the target<br>
 26.[“A population Monte Carlo scheme with transformed weights and its application to stochastic kinetic models](https://arxiv.org/pdf/1208.5600)
 
 27.[Adaptive Importance Sampling](https://artowen.su.domains/pubtalks/AdaptiveISweb.pdf) Slides by Stanford University
+![image](https://github.com/user-attachments/assets/ae938afe-cd25-43d3-a01e-472ab5ebf8e8)
+
 
 # Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
