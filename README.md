@@ -301,6 +301,11 @@ Choosing an Inappropriate Sampling Distribution: If the sampling distribution di
 
 Computational Burden: For high-dimensional problems, importance sampling may require a very large number of samples to accurately estimate the expected value. Especially when the target distribution is complex, the calculation of weights can be very time-consuming, further increasing the computational burden.<br>
 
+29.Behaviour Cloning uses loss:<br>
+1.MSE<br>
+2.L1,L2 regularization<br>
+3.cross entropy (classification) <br>
+
 # Paper List
 1.Accepted papers in CoRL 2024 are in file “corl2024_paper_list.xlsx"<br>
 2.[ICML 2024 Oral paper list](https://icml.cc/virtual/2024/events/oral)
