@@ -14,7 +14,6 @@ As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for 
 7. Human-In-The-Loop
 8. Multi-Agent
 9. Ethical and Societal Implications
-10. 
 
 ## Tutorials & Slides
 1.[Reinforcement Learning Basics by Fei-Fei Li](https://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture14.pdf)
