@@ -10,6 +10,7 @@ As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for 
 3. Inference speed 
 4. Datasets
 5. Sim2Real
+6. Safety
 
 ## Tutorials & Slides
 1.[Reinforcement Learning Basics by Fei-Fei Li](https://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture14.pdf)
