@@ -9,7 +9,7 @@ As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for 
 2. Generality (Multi-task)
 3. Inference speed 
 4. Datasets
-5. Sim2Real
+5. Sim2Real 
 6. Safety
 7. Human-In-The-Loop
 8. Multi-Agent
