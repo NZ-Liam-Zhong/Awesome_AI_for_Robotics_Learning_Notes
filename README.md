@@ -7,7 +7,7 @@ As ChatGPT and RT2 appears, many researchers start to do reseaches about AI for 
 ## 🤔Main Challenges🤔
 1. Accuracy (Algorithm)  
 2. Generality (Multi-task)
-3. Inference speed 
+3. Inference speed  
 4. Datasets
 5. Sim2Real 
 6. Safety
