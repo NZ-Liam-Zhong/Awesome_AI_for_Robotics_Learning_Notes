@@ -511,7 +511,7 @@ An algorithm company. Designing AI algorithms for robotics. Its founders include
 
 ### Jan.2025
 1.Using H20 for OpenVLA LIBERO simulation will have floating point problems. I have sent the solving methods to the "pull requests" in OpenVLA repo.<br>
-2.'''export CUDA_VISIBLE_DEVICES=1''' After that, we don't have to add the '''CUDA_VISIBLE_DEVICES=1''' to evry single command line<br>
+2.```export CUDA_VISIBLE_DEVICES=1``` After that, we don't have to add the ```CUDA_VISIBLE_DEVICES=1``` to evry single command line<br>
 
 ### Nov.2024
 1.Bridge Sim2Real Gap: domain randomization, system identification, or improved simulator visuals <br>
